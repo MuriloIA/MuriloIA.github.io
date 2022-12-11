@@ -153,37 +153,6 @@
     background-color: transparent;
   }
   
-  #skills-section-title {
-    border-top: 1px solid var(--border-color);
-    padding-top: 20px;
-    margin-bottom: 20px;
-    font-size: 32px;
-  }
-  
-  #skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 25px;
-  }
-  
-  .skills-box {
-    flex: 1 1 33%;
-    max-width: 50%;
-    margin-bottom: 35px;
-  }
-  
-  .skills-title {
-    font-size: 24px;
-    margin-bottom: 25px;
-    font-weight: bold;
-    padding-left: 10px;
-    border-left: 5px solid var(--main-color);
-  }
-  
-  .skills-box i {
-    font-size: 45px;
-    margin-right: 10px;
-  }
   
   /* Mobile */
   @media(max-width: 450px) {
@@ -235,19 +204,7 @@
   
   }
 
-.gasprices {
-  float: left;
-  margin-right: 1%;
-  width: 50%;
-}
-
-.funcoes {
-  margin: 5px;
-  font-size: 1.5em;
-}
-
-.itens {
-  display: block;
-  margin-left: 53%;
-  margin-top: 5px;
+.gasprices{
+  float: right;
+  margin-top: 100px;
 }
