@@ -11,7 +11,7 @@
     --main-color: #54B689;
     --main-text-color: black;
     --border-color: #999;
-    --bio-bg-color: #F5FFFA;
+    --bio-bg-color: #F0F8FF;
     --bio-border-color: #DCDCDC;
     --about-bg-color: #FFF;
   }
@@ -34,7 +34,7 @@
     background-color: var(--bio-bg-color);
     text-align: center;
     padding: 30px 12px;
-    border-right: 5px solid var(--bio-border-color);
+    border-right: 2px solid var(--bio-border-color);
   }
   
   #about-container {
@@ -234,3 +234,20 @@
     }
   
   }
+
+.gasprices {
+  float: left;
+  margin-right: 1%;
+  width: 50%;
+}
+
+.funcoes {
+  margin: 5px;
+  font-size: 1.5em;
+}
+
+.itens {
+  display: block;
+  margin-left: 53%;
+  margin-top: 5px;
+}
